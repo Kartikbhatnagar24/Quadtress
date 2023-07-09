@@ -1,1 +1,2 @@
 # Image-compression
+This program utilizes the quadtree data structure to perform image compression. The compression process involves recursively dividing the image into smaller quadrants, based on certain criteria such as a specified depth level or level of detail. Each quadrant in the quadtree contains information about its detail level and color composition, enabling the reconstruction of the original image from the quadtree structure.
