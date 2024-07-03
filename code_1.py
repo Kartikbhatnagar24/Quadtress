@@ -140,7 +140,7 @@ class QuadTree():
 
 if __name__ == '__main__':
     #image_path = "/home/nidhi/Documents/image_compression/img2.jpeg"
-    image_path = "/home/nidhi/Documents/image_compression/img1.jpeg"
+    image_path = "/home/kartik/Documents/image_compression/img1.jpeg"
 
     image = Image.open(image_path)
     image = image.resize((image.size[0] * SIZE_MULT, image.size[1] * SIZE_MULT))
